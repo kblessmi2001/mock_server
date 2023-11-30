@@ -1,64 +1,98 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Gertrudis Tatterton",
-        "age": 18,
-        "email": "gtatterton0@ehow.com"
+  "users": [
+    {
+      "id": 1,
+      "name": "Gertrudis Tatterton",
+      "age": 18,
+      "email": "gtatterton0@ehow.com"
+    },
+    {
+      "id": 2,
+      "name": "Gail Newbatt",
+      "age": 53,
+      "email": "gnewbatt1@un.org"
+    },
+    {
+      "id": 3,
+      "name": "Walliw Wilstead",
+      "age": 49,
+      "email": "wwilstead2@tripadvisor.com"
+    },
+    {
+      "id": 4,
+      "name": "Abran Proback",
+      "age": 29,
+      "email": "aproback3@theglobeandmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Roda Chappelow",
+      "age": 31,
+      "email": "rchappelow4@oaic.gov.au"
+    },
+    {
+      "id": 6,
+      "name": "Karney Wylie",
+      "age": 22,
+      "email": "kwylie5@miitbeian.gov.cn"
+    },
+    {
+      "id": 7,
+      "name": "Cammi Pimbley",
+      "age": 63,
+      "email": "cpimbley6@nyu.edu"
+    },
+    {
+      "id": 8,
+      "name": "Gavra Manning",
+      "age": 43,
+      "email": "gmanning7@lycos.com"
+    },
+    {
+      "id": 9,
+      "name": "Zachary Seward",
+      "age": 45,
+      "email": "zseward8@oracle.com"
+    },
+    {
+      "id": 10,
+      "name": "Chucho Norssister",
+      "age": 20,
+      "email": "cnorssister9@mayoclinic.com"
+    }
+  ],
+  "forum": [
+    {
+      "question": {
+        "userAvatar": "user_avatar.png",
+        "username": "JohnDoe123",
+        "questionTitle": "How to sort an array in JavaScript?",
+        "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+        "language": "JavaScript",
+        "upvotes": 10,
+        "answers": 3,
+        "postedDate": "2023-05-30"
       },
-      {
-        "id": 2,
-        "name": "Gail Newbatt",
-        "age": 53,
-        "email": "gnewbatt1@un.org"
-      },
-      {
-        "id": 3,
-        "name": "Walliw Wilstead",
-        "age": 49,
-        "email": "wwilstead2@tripadvisor.com"
-      },
-      {
-        "id": 4,
-        "name": "Abran Proback",
-        "age": 29,
-        "email": "aproback3@theglobeandmail.com"
-      },
-      {
-        "id": 5,
-        "name": "Roda Chappelow",
-        "age": 31,
-        "email": "rchappelow4@oaic.gov.au"
-      },
-      {
-        "id": 6,
-        "name": "Karney Wylie",
-        "age": 22,
-        "email": "kwylie5@miitbeian.gov.cn"
-      },
-      {
-        "id": 7,
-        "name": "Cammi Pimbley",
-        "age": 63,
-        "email": "cpimbley6@nyu.edu"
-      },
-      {
-        "id": 8,
-        "name": "Gavra Manning",
-        "age": 43,
-        "email": "gmanning7@lycos.com"
-      },
-      {
-        "id": 9,
-        "name": "Zachary Seward",
-        "age": 45,
-        "email": "zseward8@oracle.com"
-      },
-      {
-        "id": 10,
-        "name": "Chucho Norssister",
-        "age": 20,
-        "email": "cnorssister9@mayoclinic.com"
-      }
-    ]
-  }
+      "answers": [
+        {
+          "userAvatar": "user_avatar2.png",
+          "username": "JaneSmith456",
+          "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+          "postedDate": "2023-05-31"
+        },
+        {
+          "userAvatar": "user_avatar3.png",
+          "username": "SamJohnson789",
+          "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+          "postedDate": "2023-06-01"
+        },
+        {
+          "userAvatar": "user_avatar4.png",
+          "username": "EmilyBrownXYZ",
+          "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+          "postedDate": "2023-06-01"
+        }
+      ]
+    }
+  ]
+}
