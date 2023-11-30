@@ -64,7 +64,8 @@
   "forum": [
     {
       "question": {
-        "userAvatar": "user_avatar.png",
+        "id": 1,
+        "userAvatar": "https://cdn-icons-png.flaticon.com/128/4140/4140047.png?ga=GA1.1.1162169027.1699254330&semt=ais",
         "username": "JohnDoe123",
         "questionTitle": "How to sort an array in JavaScript?",
         "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
@@ -75,22 +76,154 @@
       },
       "answers": [
         {
-          "userAvatar": "user_avatar2.png",
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
           "username": "JaneSmith456",
           "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
           "postedDate": "2023-05-31"
         },
         {
-          "userAvatar": "user_avatar3.png",
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
           "username": "SamJohnson789",
           "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
           "postedDate": "2023-06-01"
         },
         {
-          "userAvatar": "user_avatar4.png",
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
           "username": "EmilyBrownXYZ",
           "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
           "postedDate": "2023-06-01"
+        }
+      ]
+    },
+    {
+      "question": {
+        "id": 2,
+        "userAvatar": "https://cdn-icons-png.flaticon.com/128/4140/4140047.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+        "username": "AliceCoder789",
+        "questionTitle": "How to handle exceptions in Python?",
+        "questionDescription": "I'm looking for the best practices in handling exceptions in Python. Any advice?",
+        "language": "Python",
+        "upvotes": 15,
+        "answers": 5,
+        "postedDate": "2023-06-02"
+      },
+      "answers": [
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "BobDev456",
+          "answerText": "In Python, you can use the 'try', 'except', and 'finally' blocks to handle exceptions...",
+          "postedDate": "2023-06-03"
+        },
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "EvePythonista",
+          "answerText": "An alternative to 'try' and 'except' is using 'else' and 'finally' for more precise control...",
+          "postedDate": "2023-06-03"
+        },
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "CharliePy",
+          "answerText": "Consider using specific exception types to handle different error scenarios in Python...",
+          "postedDate": "2023-06-04"
+        }
+      ]
+    },
+    {
+      "question": {
+        "id": 3,
+        "userAvatar": "https://cdn-icons-png.flaticon.com/128/4140/4140047.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+        "username": "ReactGuru",
+        "questionTitle": "What are React Hooks?",
+        "questionDescription": "I've heard about React Hooks but don't fully understand them. Can someone explain?",
+        "language": "JavaScript",
+        "upvotes": 20,
+        "answers": 7,
+        "postedDate": "2023-06-05"
+      },
+      "answers": [
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "VueJSFan",
+          "answerText": "React Hooks are functions that let you use state and other React features in functional components...",
+          "postedDate": "2023-06-06"
+        },
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "AngularDev123",
+          "answerText": "They were introduced in React 16.8 to allow state and lifecycle features in functional components...",
+          "postedDate": "2023-06-06"
+        },
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "SvelteMaster",
+          "answerText": "Hooks provide more flexibility and reusability compared to class components in React...",
+          "postedDate": "2023-06-07"
+        }
+      ]
+    },
+    {
+      "question": {
+        "id": 4,
+        "userAvatar": "https://cdn-icons-png.flaticon.com/128/4140/4140047.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+        "username": "JavaPro567",
+        "questionTitle": "How to connect to a MySQL database in Java?",
+        "questionDescription": "I need to establish a connection to a MySQL database using Java. Any tips?",
+        "language": "Java",
+        "upvotes": 12,
+        "answers": 4,
+        "postedDate": "2023-06-08"
+      },
+      "answers": [
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "SQLWizard",
+          "answerText": "In Java, you can use JDBC (Java Database Connectivity) to connect to a MySQL database...",
+          "postedDate": "2023-06-09"
+        },
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "DevOpsJava",
+          "answerText": "Make sure to load the JDBC driver, create a connection, and handle exceptions properly in Java...",
+          "postedDate": "2023-06-10"
+        },
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "MySQLDev456",
+          "answerText": "Consider using connection pooling for better performance and resource management...",
+          "postedDate": "2023-06-10"
+        }
+      ]
+    },
+    {
+      "question": {
+        "id": 5,
+        "userAvatar": "https://cdn-icons-png.flaticon.com/128/4140/4140047.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+        "username": "PythonicCoder",
+        "questionTitle": "How to read a JSON file in Python?",
+        "questionDescription": "I'm working on a Python project and need to read data from a JSON file. Any suggestions?",
+        "language": "Python",
+        "upvotes": 18,
+        "answers": 6,
+        "postedDate": "2023-06-11"
+      },
+      "answers": [
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "JSONMaster",
+          "answerText": "In Python, you can use the 'json' module to read data from a JSON file. Use 'json.load()'...",
+          "postedDate": "2023-06-12"
+        },
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "DataScientist789",
+          "answerText": "Ensure that your JSON file is properly formatted and handle exceptions when reading it...",
+          "postedDate": "2023-06-12"
+        },
+        {
+          "userAvatar": "https://cdn-icons-png.flaticon.com/128/1144/1144760.png?ga=GA1.1.1162169027.1699254330&semt=ais",
+          "username": "Pythonista123",
+          "answerText": "Consider using 'with' statement to automatically close the file after reading in Python...",
+          "postedDate": "2023-06-13"
         }
       ]
     }
